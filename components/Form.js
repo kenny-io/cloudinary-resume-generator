@@ -1,4 +1,3 @@
-// import "bootstrap/dist/css/bootstrap.min.css";
 function Form({
   userDetails,
   setUserDetails,
@@ -46,7 +45,6 @@ function Form({
               placeholder="Firstname"
               name="firstname"
               required
-              //   disabled={enableInputs}
               value={firstname}
               onChange={handleChange}
             />
@@ -60,7 +58,6 @@ function Form({
               placeholder="Lastname"
               name="lastname"
               required
-              //   disabled={enableInputs}
               value={lastname}
               onChange={handleChange}
             />
@@ -74,7 +71,6 @@ function Form({
               placeholder="Your Role"
               name="role"
               required
-              //   disabled={enableInputs}
               value={role}
               onChange={handleChange}
             />
@@ -87,7 +83,6 @@ function Form({
               id="country"
               name="country"
               required
-              //   disabled={enableInputs}
               value={country}
               onChange={handleChange}
             />
@@ -100,7 +95,6 @@ function Form({
               name="state"
               className="form-control"
               required
-              //   disabled={enableInputs}
               value={state}
               onChange={handleChange}
             />
@@ -115,7 +109,6 @@ function Form({
               placeholder="Email"
               name="email"
               required
-              //   disabled={enableInputs}
               value={email}
               onChange={handleChange}
             />
@@ -129,7 +122,6 @@ function Form({
               placeholder="Phone number"
               name="mobile"
               required
-              //   disabled={enableInputs}
               value={mobile}
               onChange={handleChange}
             />
@@ -143,7 +135,6 @@ function Form({
               placeholder="website"
               name="website"
               required
-              //   disabled={enableInputs}
               value={website}
               onChange={handleChange}
             />
@@ -156,7 +147,6 @@ function Form({
               className="form-control"
               id="school"
               name="school"
-              //   disabled={enableInputs}
               value={school}
               onChange={handleChange}
               required
@@ -170,7 +160,6 @@ function Form({
               id="course"
               name="course"
               required
-              //   disabled={enableInputs}
               value={course}
               onChange={handleChange}
             />
@@ -185,7 +174,6 @@ function Form({
               placeholder="company"
               name="company"
               required
-              //   disabled={enableInputs}
               value={company}
               onChange={handleChange}
             />
@@ -199,7 +187,6 @@ function Form({
               placeholder="position"
               name="position"
               required
-              //   disabled={enableInputs}
               value={position}
               onChange={handleChange}
             />
@@ -214,7 +201,6 @@ function Form({
               placeholder="interest"
               name="interest_1"
               required
-              //   disabled={enableInputs}
               value={interest_1}
               onChange={handleChange}
             />
@@ -227,7 +213,6 @@ function Form({
               placeholder="interest"
               name="interest_2"
               required
-              //   disabled={enableInputs}
               value={interest_2}
               onChange={handleChange}
             />
@@ -240,7 +225,6 @@ function Form({
               placeholder="interest"
               name="interest_3"
               required
-              //   disabled={enableInputs}
               value={interest_3}
               onChange={handleChange}
             />

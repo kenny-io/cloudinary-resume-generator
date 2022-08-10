@@ -26,7 +26,7 @@ function Home({ userDetails, setUserDetails, setShowPDF, initialState }) {
 
   const cld = new Cloudinary({
     cloud: {
-      cloudName: "Kizmelvin",
+      cloudName: "YOUR_CLOUD_NAME",
     },
   });
 
